@@ -1,0 +1,26 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "Projeto JS - Caelum",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 5000"
+  },
+  "keywords": [
+    "JavaScript",
+    "Agenda - Contato",
+    "Front-End",
+    "Node",
+    "Json-Server",
+    "Lite-Server"
+  ],
+  "author": "TluziaS",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "json-server": "^0.15.1",
+    "lite-server": "^2.5.4"
+  }
+}

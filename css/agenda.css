@@ -1,0 +1,58 @@
+body {
+  padding: 3em;
+  font-family: 'Tomorrow', sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+tr:nth-child(even){
+  background-color: #f7f7f7;
+}
+
+legend{
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.pure-form legend {
+  margin-bottom: 35px;
+  border-bottom: 1.4px solid #8B8989;
+}
+.pure-table thead{
+  background: rgb(139,137,137);
+  background: linear-gradient(100deg, rgba(139,137,137,1) 0%, #bebebe 100%);
+}
+
+hr {
+  margin: 2em 0;
+}
+
+
+img{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* mensagem ao lado de cada campo - oculta */
+.pure-form input+span {
+  display: none;
+}
+
+/* classe de erro para os campos */
+.pure-form input.error,
+.pure-form input.error:focus {
+  border-color: #e60000;
+  background: #ffe6e6;
+}
+
+/* truque - exibir a mensagem ao lado 
+quando o campo tiver a classe error */
+.pure-form input.error+span {
+  display: inline-block; 
+}
+
+.pure-button:active{
+  background-color: green;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Agenda</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
+    integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/agenda.css">
+</head>
+
+<body>
+
+  <form class="pure-form pure-form-aligned">
+    
+    <fieldset>
+      <legend>Agenda</legend>
+
+      <div class="pure-control-group">
+        <label for="name">Nome</label>
+        <input id="name" type="text" placeholder="Nome">
+        <span class="error"><img src="img/erro.png" width="20" height="20"> </span>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="E-mail">
+        <span class="error"><img src="img/erro.png" width="20" height="20"> </span>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="phone">Telefone</label>
+        <input id="phone" type="text" placeholder="Telefone" min=11 max=13>
+        <span class="error"><img src="img/erro.png" width="20" height="20"> </span>
+      </div>
+
+      <div class="pure-controls">
+        <button type="submit" class="pure-button pure-button-primary">Adicionar</button>
+      </div>
+    </fieldset>
+
+  </form>
+
+  <hr>
+
+  <table class="pure-table">
+    
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Telefone</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <!-- Registros do Json -->
+    </tbody>
+
+  </table>
+
+  <script src="js/agenda.js"></script>
+
+</body>
+
+</html>
